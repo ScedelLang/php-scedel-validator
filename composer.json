@@ -1,0 +1,22 @@
+{
+  "name": "scedel/validator",
+  "description": "JSON validator for SCEDel schema repositories",
+  "type": "library",
+  "require": {
+    "php": "^8.3",
+    "scedel/schema": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scedel\\Validator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Scedel\\Validator\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --configuration phpunit.xml"
+  }
+}
