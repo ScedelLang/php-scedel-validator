@@ -2,6 +2,18 @@
   "name": "scedel/validator",
   "description": "JSON validator for SCEDel schema repositories",
   "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SCEDel contributors"
+    }
+  ],
+  "keywords": [
+    "scedel",
+    "schema",
+    "validator",
+    "json"
+  ],
   "require": {
     "php": "^8.3",
     "scedel/schema": "*"
