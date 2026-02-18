@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 $workspaceRoot = dirname(__DIR__, 2);
-require $workspaceRoot . '/scedel/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 spl_autoload_register(static function (string $class) use ($workspaceRoot): void {
     $prefixes = [
